@@ -3,7 +3,7 @@
 // Node modules
 var path = require('path');
 var gulp = require('gulp');
-var karma = require('karma').server;
+//var karma = require('karma').server;
 
 // Gulp modules
 var gutil = require('gulp-util');
@@ -11,7 +11,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var del = require('del');
 var minifyCSS = require('gulp-minify-css');
-var imagemin = require('gulp-imagemin');
+//var imagemin = require('gulp-imagemin');
 var plumber = require('gulp-plumber');
 var templateCache = require('gulp-angular-templatecache');
 var jshint = require('gulp-jshint');
@@ -138,7 +138,7 @@ gulp.task('css', ['clean', 'extCss'], function () {
 // Runs all images through imagemin, compresssing them to save bandwidth.
 gulp.task('images', ['clean'], function () {
     return gulp.src(PATHS.images)
-            .pipe(imagemin())
+            //.pipe(imagemin())
             .pipe(gulp.dest(BUILD_IMG_PATH));
 });
 
