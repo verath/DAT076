@@ -1,5 +1,8 @@
 Movie Finder [![Build Status](https://magnum.travis-ci.com/we4sz/DAT076.svg?token=fugb8BtcAEkk8AyzaSJB&branch=develop)](https://magnum.travis-ci.com/we4sz/DAT076)
 ============
+
+![](moviefinder.png)
+
 MovieFinder is a demo (as in not yet fully finished) web application for keeping track of and displaying local movie files. The application is built as a Spring Framework REST API with an AngularJS based application as the frontend. 
 
 The application was developed for the course [DAT076 (2014)](http://www.cse.chalmers.se/edu/year/2014/course/DAT076/) at Chalmers.
